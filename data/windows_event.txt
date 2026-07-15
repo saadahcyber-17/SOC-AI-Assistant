@@ -1,0 +1,22 @@
+Windows Event ID 4625
+
+Description:
+Event ID 4625 indicates that an account failed to log on.
+
+Common Causes:
+- Incorrect password
+- Brute force attacks
+- Disabled accounts
+- Expired passwords
+
+Security Relevance:
+SOC analysts monitor repeated Event ID 4625 events because they may indicate password guessing or brute force attacks.
+
+MITRE ATT&CK:
+Technique: T1110 - Brute Force
+
+Recommended Investigation:
+- Check source IP address
+- Review failed login frequency
+- Correlate with successful logins (Event ID 4624)
+- Investigate user account activity
